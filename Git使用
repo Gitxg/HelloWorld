@@ -1,0 +1,43 @@
+SVN 集中式版本控制系统
+
+SVN Server
+
+SVN client  SVN client  SVN client
+
+
+git 分布式版本控制系统
+
+代码版本托管系统 GitHub, 远程仓库
+
+本地仓库    本地仓库    本地仓库
+git1        git2       git3
+
+
+
+ 代码版本: master主干分支
+git clone ssh 远程仓库的地址,有两个东西自动创建 
+1. 远程仓库的名称 origin
+2. 本地仓库也生成一个默认的主干分支 origin -> master
+
+git add sort.cpp  把工作区的代码改动,提交到暂存区.
+git status        查看提交暂存区的状态
+
+
+
+第一次课
+////////////////////////////////////////////////////////////////////////
+            git add           git commit        git push
+ git工作区          git暂存区           本地仓库           远程仓库
+////////////////////////////////////////////////////////////////////////
+
+ 提交到本地仓库的master分支
+ git commit -m "zxg 创建一个sort.cpp文件"
+
+ git push origin master  将本地的 origin master分支推送到远程仓库下 origin master分支
+
+ git pull  //从远程仓库拉回来更新后的文件,拉回到本地系统上面去
+
+ git log   //查看修改的过程
+
+ HEAD 指针  //本地仓库每一个分支上面都会生成一个id信息,HEAD指针指向最近一次的commit提交,并通过这个commit进行版本回退.
+
