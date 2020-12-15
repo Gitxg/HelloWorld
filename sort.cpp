@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
   int arr[5] = {1,21,31,22,0};
   for(int i=0; i<5; i++)
   {
-     for(int j=i; j<4;j++)
+     for(int j=0; j<5-i-1;j++)
      {
        if(arr[j]>arr[j+1])
         {
