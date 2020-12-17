@@ -19,6 +19,7 @@ int main()
   for(int i=0; i<5; i++)
   cout << arr[i] <<" ";
   cout << "123" <<endl;
-  cout << "4523123126" <<endl;
+  cout << "21211" <<endl;
+  
   return 0;
 }
