@@ -72,3 +72,4 @@ git checkout -b quicksort   //创建quicksort   本地分支
 没有对应远程的分支
 
 git checkout main   //切回到这个分支
+git merge quicksort  //合并到main分支上面去
