@@ -41,3 +41,19 @@ git status        查看提交暂存区的状态
 
  HEAD 指针  //本地仓库每一个分支上面都会生成一个id信息,HEAD指针指向最近一次的commit提交,并通过这个commit进行版本回退.
 
+第二次课
+////////////////////////////////////////////////////////////////////////
+	       	     git add            git commit        git push
+	   git工作区           git暂存区           本地仓库           远程仓库
+       git checkout git reset HEAD     git reset --hard commitid 
+////////////////////////////////////////////////////////////////////////
+
+
+git checkout -- filename       // 工作区的修改全部不要了
+git reset HEAD filename        // 将暂存区的内容全部销毁
+git reset -- head  commit_id   // 本地仓库的代码进行回退 
+git reflog                     // 查看HEAD指针的修改内容
+ 
+git push -f origin master //-f是强制更新到远程仓库,不加f的话如果本地仓库落后于远程仓库则会更新不上去.
+
+
