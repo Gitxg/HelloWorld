@@ -56,4 +56,19 @@ git reflog                     // 查看HEAD指针的修改内容
  
 git push -f origin master //-f是强制更新到远程仓库,不加f的话如果本地仓库落后于远程仓库则会更新不上去.
 
+第三次课 — 分支的使用
 
+V1  —— V2 —— V3 —— V4 (main)——
+
+
+////////////////////////////////////////////////////////////////////////
+git branch     //查看本地分支
+git branch -r //查看远程分支
+git branch -a //查看本地和远程分支
+git branch -vv //查看当前分支状态
+////////////////////////////////////////////////////////////////////////
+git branch quicksort          //创建quicksort   本地分支
+git checkout -b quicksort   //创建quicksort   本地分支
+没有对应远程的分支
+
+git checkout main   //切回到这个分支
