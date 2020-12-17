@@ -66,6 +66,7 @@ git branch     //查看本地分支
 git branch -r //查看远程分支
 git branch -a //查看本地和远程分支
 git branch -vv //查看当前分支状态
+git diff HEAD -- sort.cpp  //工作区与本地代码的不同
 ////////////////////////////////////////////////////////////////////////
 git branch quicksort          //创建quicksort   本地分支
 git checkout -b quicksort   //创建quicksort   本地分支
@@ -73,3 +74,11 @@ git checkout -b quicksort   //创建quicksort   本地分支
 
 git checkout main   //切回到这个分支
 git merge quicksort  //合并到main分支上面去
+git branch -d quicksort       //删除quicksort   本地分支
+
+
+
+
+
+晚上12.17分
+！！！！！！！！！！！！！！！！！！！！！！！
