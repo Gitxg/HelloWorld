@@ -72,9 +72,15 @@ git branch quicksort          //创建quicksort   本地分支
 git checkout -b quicksort   //创建quicksort   本地分支
 没有对应远程的分支
 
-git checkout main   //切回到这个分支
-git merge quicksort  //合并到main分支上面去
-git branch -d quicksort       //删除quicksort   本地分支
+
+本地仓库新建一个分支   
+1.  git branch  test
+2.  修改文件
+3.  git add
+4.  git commit -m "test"
+5.  git checkout main     //切回到这个main分支
+6.  git merge quicksort   //合并到main分支上面去
+7.  git branch -d quicksort       //删除quicksort   本地分支
 
 
 
